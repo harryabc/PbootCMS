@@ -7,6 +7,10 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+08:00";
 SET NAMES utf8;
 
+DROP DATABASE IF EXISTS `pbootcms`;
+CREATE DATABASE `pbootcms`;
+USE `pbootcms`;
+
 -- --------------------------------------------------------
 
 --
